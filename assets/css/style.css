@@ -275,3 +275,5 @@ input[type=submit] {
         padding: 0;
     }
 }
+
+/*This should work in all sizes, I found that for the dev tools you have to re-open the browser type the specified pixel size for it to show the way it works*/
