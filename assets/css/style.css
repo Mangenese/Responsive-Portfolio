@@ -244,3 +244,34 @@ input[type=submit] {
         width: 728px;
     }
 }
+
+@media screen and (max-width: 640px) {
+    #mastheader {
+        position: static;
+        width: 100%;
+    }
+    nav {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 0px;
+        margin-top: 20px;
+    }
+    #logo {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        position: static;
+        text-align: center;
+    }
+
+    .main-section {
+        width: 600px;
+        padding-top: 0px;
+        margin-top: 0px;
+        padding-left: 20px;
+        padding-right: 10px;
+    }
+    #main-container {
+        padding: 0;
+    }
+}
